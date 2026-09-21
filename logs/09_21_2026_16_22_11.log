@@ -1,0 +1,4 @@
+2026-09-21 16:22:11,326 - INFO - Starting model training...
+2026-09-21 16:22:11,335 - INFO - Processed data loaded successfully.
+2026-09-21 16:22:11,340 - INFO - Model training completed.
+2026-09-21 16:22:11,340 - INFO - Trained model saved to C:\Users\sdaya\OneDrive\Desktop\project_ins\models\best_insurance_model.pkl.

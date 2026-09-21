@@ -1,0 +1,16 @@
+2026-09-21 16:41:23,574 - INFO - Training pipeline started
+2026-09-21 16:41:23,574 - INFO - Data ingestion directories created.
+2026-09-21 16:41:23,574 - INFO - Starting data ingestion process.
+2026-09-21 16:41:23,585 - INFO - Raw data read successfully from C:\Users\sdaya\OneDrive\Desktop\project_ins\data\insurance.csv.
+2026-09-21 16:41:23,585 - INFO - Ingested data saved to C:\Users\sdaya\OneDrive\Desktop\project_ins\artifacts\train.csv.
+2026-09-21 16:41:23,585 - INFO - Data transformation directories created.
+2026-09-21 16:41:23,585 - INFO - Initiating data transformation...
+2026-09-21 16:41:23,602 - INFO - Data loaded successfully.
+2026-09-21 16:41:23,603 - INFO - Feature engineering completed.
+2026-09-21 16:41:23,636 - INFO - Transformed data saved to C:\Users\sdaya\OneDrive\Desktop\project_ins\artifacts\all_processed.csv.
+2026-09-21 16:41:23,637 - INFO - Preprocessor object saved to C:\Users\sdaya\OneDrive\Desktop\project_ins\artifacts\preprocessor.pkl.
+2026-09-21 16:41:23,637 - INFO - Starting model training...
+2026-09-21 16:41:23,646 - INFO - Processed data loaded successfully.
+2026-09-21 16:41:23,655 - INFO - Model training completed.
+2026-09-21 16:41:23,655 - INFO - Trained model saved to C:\Users\sdaya\OneDrive\Desktop\project_ins\models\best_insurance_model.pkl.
+2026-09-21 16:41:23,657 - INFO - Training pipeline completed successfully

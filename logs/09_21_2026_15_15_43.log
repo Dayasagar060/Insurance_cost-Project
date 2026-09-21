@@ -1,0 +1,4 @@
+2026-09-21 15:15:43,820 - INFO - Data ingestion directories created.
+2026-09-21 15:15:43,820 - INFO - Starting data ingestion process.
+2026-09-21 15:15:43,830 - INFO - Raw data read successfully from C:\Users\sdaya\OneDrive\Desktop\project_ins\data\insurance.csv.
+2026-09-21 15:15:43,840 - INFO - Ingested data saved to C:\Users\sdaya\OneDrive\Desktop\project_ins\artifacts\train.csv.

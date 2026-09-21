@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insurance Cost Prediction</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        form { width: 300px; margin: auto; display: flex; flex-direction: column; gap: 10px; }
+        label { display: flex; justify-content: space-between; }
+        input, select { width: 150px; }
+        button { margin-top: 10px; padding: 5px; }
+        h2, h3 { text-align: center; }
+    </style>
+</head>
+<body>
+    <h2>Insurance Cost Prediction</h2>
+    <form method="post" action="/">
+        <label>Age: <input type="number" name="age" required></label>
+        <label>Sex:
+            <select name="sex" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </label>
+        <label>BMI: <input type="number" step="0.01" name="bmi" required></label>
+        <label>Children: <input type="number" name="children" required></label>
+        <label>Smoker:
+            <select name="smoker" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </label>
+        <label>Region:
+            <select name="region" required>
+                <option value="northeast">Northeast</option>
+                <option value="northwest">Northwest</option>
+                <option value="southeast">Southeast</option>
+                <option value="southwest">Southwest</option>
+            </select>
+        </label>
+        <button type="submit">Predict</button>
+    </form>
+    {% if prediction is defined %}
+    <h3>Predicted Insurance Cost: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,6 @@
+2026-09-21 16:05:24,365 - INFO - Data transformation directories created.
+2026-09-21 16:05:24,365 - INFO - Initiating data transformation...
+2026-09-21 16:05:24,373 - INFO - Data loaded successfully.
+2026-09-21 16:05:24,375 - INFO - Feature engineering completed.
+2026-09-21 16:05:24,402 - INFO - Transformed data saved to C:\Users\sdaya\OneDrive\Desktop\project_ins\artifacts\all_processed.csv.
+2026-09-21 16:05:24,411 - INFO - Preprocessor object saved to C:\Users\sdaya\OneDrive\Desktop\project_ins\artifacts\preprocessor.pkl.

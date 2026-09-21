@@ -1,0 +1,8 @@
+2026-09-20 17:20:20,981 - INFO - Starting smoke test for logger + exceptions
+2026-09-20 17:20:20,982 - ERROR - Caught an exception in trigger_error(): Exception occurred in trigger_error at C:\Users\sdaya\OneDrive\Desktop\project_ins\tests\log_exce_testing.py:16
+division by zero
+2026-09-20 17:20:20,982 - INFO - Short formatted exception: Exception occurred in trigger_error at C:\Users\sdaya\OneDrive\Desktop\project_ins\tests\log_exce_testing.py:16
+division by zero
+2026-09-20 17:20:20,983 - INFO - Wrapped as CustomException: Exception occurred in trigger_error at C:\Users\sdaya\OneDrive\Desktop\project_ins\tests\log_exce_testing.py:16
+division by zero
+2026-09-20 17:20:20,983 - INFO - Smoke test completed.
